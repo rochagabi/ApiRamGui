@@ -8,7 +8,7 @@ app.get('/cor/:cor', (requisicao, resposta) => {
     if (cor === 'azul') {
         resposta.send('Azul é tri!');
     } else if (cor === 'amarelo') {
-        resposta.send('Amarelo eh do baralho!');
+        resposta.send('Amarelo eh do caralho!');
     } else {
         resposta.send(`Oi, ${cor}!`);
     }
